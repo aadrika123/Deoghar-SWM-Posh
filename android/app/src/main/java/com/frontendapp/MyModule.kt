@@ -10,7 +10,7 @@ class MyModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModu
     override fun getName(): String {
         return "MyModule"
     }
-
+//testing push
     @ReactMethod
     fun myMethod(callback: Callback) {
         val message = "Hello from Kotlin!"
